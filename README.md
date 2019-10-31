@@ -1,2 +1,4 @@
 # A-Remote-Hand-Gesture-Recognition-System
 This project aims to use Intel FPGA as data processor and Xilinx Ego1 as operator, to implement a Remote Hand Gesture Recognition System (RHGRS). We use Terasic DE10-Nano Kit and Xilinx Ego1 co-design as our developing and implementing method.
+
+The system to implement human-body motion capturing usually has two basic components: Frontend and Backend. Frontend is generally used as the collector of data which relates to human movement, while Backend has functions of data processing and implementing judgement algorithms. Our application (system) intends to use a camera as the input and a PC as the terminal. By replacing the operation of clicking, rolling and moving with different gestures, out system collects hand movements and transfers these gestures to computer instructions, such as volume controlling, slides displaying and software running. 
